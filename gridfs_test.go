@@ -28,8 +28,8 @@ package mgo_test
 
 import (
 	"io"
-	"labix.org/v2/mgo"
-	"labix.org/v2/mgo/bson"
+	"mgo"
+	"mgo/bson"
 	. "launchpad.net/gocheck"
 	"os"
 	"time"

@@ -29,8 +29,8 @@ package mgo_test
 import (
 	"fmt"
 	"io"
-	"labix.org/v2/mgo"
-	"labix.org/v2/mgo/bson"
+	"mgo"
+	"mgo/bson"
 	. "launchpad.net/gocheck"
 	"net"
 	"strings"
